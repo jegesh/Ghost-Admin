@@ -8,6 +8,18 @@
                 Post will be published {{scheduleCountdown}}.
             </time>
         {{/if}}
+        <label> RTL post 
+        <input id="rtl-post" onclick="rtlToggle(this)" type="checkbox" value="">
+        </label>
+        <script>
+            function rtlToggle(elem){
+                if(elem.checked == 'true'){
+                    $(".view-editor").css("direction","rtl");
+                }else{
+                    $(".view-editor").css("direction","ltr");
+                }
+            }
+        </script>
         <section class="view-actions">
             <button type="button" class="post-settings" title="Post Settings" {{action "openSettingsMenu"}}>
                 <i class="icon-settings"></i>
