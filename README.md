@@ -1,4 +1,4 @@
-# Ghost-Admin
+# Ghost-Admin w/ BiDi support
 
 <a href="https://travis-ci.org/TryGhost/Ghost-Admin"><img src="https://travis-ci.org/TryGhost/Ghost-Admin.svg?branch=master" alt="Build status" /></a>
 
